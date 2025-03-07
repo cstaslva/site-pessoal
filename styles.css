@@ -97,3 +97,19 @@ body {
 #contact-form button:hover {
     background-color: #e64a19;
 }
+
+/* footer */
+#footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #333333;
+}
+
+#footer a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+#footer a:hover {
+    color: #ff5722;
+}
