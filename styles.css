@@ -36,3 +36,64 @@ body {
 #header nav ul li a:hover {
     color: #ff5722;
 }
+
+/* sections */
+.section {
+    background-color: #222222;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 50px 20px;
+}
+
+.section h1,
+.section h2,
+.project {
+    margin-bottom: 20px;
+}
+
+.section h1 {
+    font-size: 3rem;
+}
+
+.section h2 {
+    font-size: 2rem;
+}
+
+.section p {
+    font-size: 1.2rem;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+}
+
+/* form */
+#contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+#contact-form input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+#contact-form button {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #e64a19;
+}
