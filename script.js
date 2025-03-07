@@ -7,3 +7,8 @@ document.querySelectorAll('nav a').forEach(anchor => {
         });
     });
 });
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();  // Previne o envio padrão do formulário
+    alert('Formulário enviado com sucesso!');
+});
